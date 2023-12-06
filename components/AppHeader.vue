@@ -5,7 +5,8 @@
                 <button @click="$emit('sidebar-toggle')" class="bg-[rgba(255,255,255,.16)] w-[36px] h-[36px] rounded-lg lg:hidden flex items-center justify-center mr-3">
                     <i class="ki-duotone ki-abstract-14 text-white text-lg"><span class="path1"></span><span class="path2"></span></i>
                 </button>
-                <img src="https://preview.keenthemes.com/metronic8/demo60/assets/media/logos/demo60.svg" alt="" />
+                <!-- <img src="https://preview.keenthemes.com/metronic8/demo60/assets/media/logos/demo60.svg" alt="" /> -->
+                <img src="~/assets/images/logo.png" class="w-36" alt="" />
             </div>
             <!-- <img src="~/assets/images/logo.png" class="w-24" alt="" /> -->
             <div class="flex items-center">
