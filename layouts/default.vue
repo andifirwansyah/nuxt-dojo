@@ -3,7 +3,7 @@
       <app-header @sidebar-toggle="isSidebarOpen = !isSidebarOpen"/>
       <div class="flex">
         <app-side :isOpen="isSidebarOpen" @sidebar-toggle="isSidebarOpen = !isSidebarOpen"/>
-        <div class="lg:ml-[18.75rem] ml-0 px-5 py-5 lg:pt-[10.5rem] pt-32">
+        <div class="lg:ml-[18.75rem] ml-0 px-7 py-7 lg:pt-[11.3rem] pt-32 bg-background w-full h-screen">
           <slot/>
         </div>
       </div>

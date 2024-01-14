@@ -17,7 +17,8 @@ export default {
         'primary-dark': '#e65301',
         'header-primary': '#b02a00',
         'header-secondary': '#A12700',
-        shadowcs: 'rgba(82, 63, 105, 0.15)'
+        shadowcs: 'rgba(82, 63, 105, 0.15)',
+        background: '#fcfcfc',
       },
     },
   },
